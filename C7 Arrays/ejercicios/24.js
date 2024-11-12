@@ -5,6 +5,18 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
+  var sin5 = [];
+  var n = num;
+  var i = 1;
+  while (i <= 10){
+    i++;
+    if (i != 5){
+      num += 2;
+      sin5.push(num);
+      continue;
+    }
+  }
+return sin5;
 }
 
 module.exports = continueStatement;
